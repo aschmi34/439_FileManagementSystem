@@ -1,0 +1,12 @@
+help: display a list of possible commands
+currentdir: display name of the current directory
+moveup: move up one directory
+changedir: DIRNAME: move into another directory if it is inside current directory
+newfile FILENAME / newdir DIRNAME: creates a new file or directory
+delfile FILENAME / deldir DIRNAME: deletes the specified name or directory
+renamefile FILENAME NEWNAME / renamedir DIRNAME NEWNAME: renames spedified file or directory to NEWNAME
+list: lists all files and directories in current directory
+exit: ends program
+
+
+
