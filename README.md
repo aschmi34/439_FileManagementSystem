@@ -1,6 +1,6 @@
 # 439_FileManagementSystem
 
-Our objective is to create a program to simulate a file management system. The system will be created using tree-structured directories, starting at a root directory. The root directory will contain both files and directories. Each subdirectory can also contain both files and directories. Our goal is to implement functions to: 
+# Our objective is to create a program to simulate a file management system. The system will be created using tree-structured directories, starting at a root directory. The root directory will contain both files and directories. Each subdirectory can also contain both files and directories. Our goal is to implement functions to: 
 Add a file or directory to the current directory
 Remove a file or directory from the current directory
 Rename a file or directory
