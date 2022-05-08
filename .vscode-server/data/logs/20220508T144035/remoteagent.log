@@ -1,0 +1,7 @@
+[2022-05-08 14:40:36.306] [remoteagent] [info] Extension host agent started.
+[2022-05-08 14:40:37.812] [remoteagent] [info] [127.0.0.1][02f6031e][ManagementConnection] New connection established.
+[2022-05-08 14:40:38.988] [remoteagent] [info] [127.0.0.1][4ec86c58][ExtensionHostConnection] New connection established.
+[2022-05-08 14:40:41.894] [remoteagent] [warning] [/home/jtorne2/.vscode-server/extensions/ms-vscode.cpptools-extension-pack-1.2.0]: property `extensionKind` can be defined only if property `main` is also defined.
+[2022-05-08 14:40:42.266] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-08 14:40:42.373] [remoteagent] [info] [127.0.0.1][4ec86c58][ExtensionHostConnection] <9786> Launched Extension Host Process.
+[2022-05-08 14:40:43.444] [remoteagent] [info] Deleted from disk ms-vscode.js-debug-companion /home/jtorne2/.vscode-server/extensions/ms-vscode.js-debug-companion-1.0.17

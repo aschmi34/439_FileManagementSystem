@@ -1,0 +1,113 @@
+[2022-05-07 08:27:35.843] [remoteagent] [info] Extension host agent started.
+[2022-05-07 08:27:37.530] [remoteagent] [info] [127.0.0.1][edc75646][ManagementConnection] New connection established.
+[2022-05-07 08:27:39.390] [remoteagent] [info] [127.0.0.1][99a5cea0][ExtensionHostConnection] New connection established.
+[2022-05-07 08:27:41.845] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-07 08:27:45.567] [remoteagent] [error] ptyHost was unable to resolve shell environment {}
+[2022-05-07 08:27:45.568] [remoteagent] [error] RequestService#request resolving shell environment failed {}
+[2022-05-07 08:27:45.570] [remoteagent] [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed {}
+[2022-05-07 08:27:45.690] [remoteagent] [info] [127.0.0.1][99a5cea0][ExtensionHostConnection] <110> Launched Extension Host Process.
+[2022-05-07 08:28:00.447] [remoteagent] [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed {}
+[2022-05-07 08:28:04.340] [remoteagent] [info] Getting Manifest... ms-vscode.js-debug-companion
+[2022-05-07 08:28:04.438] [remoteagent] [info] Installing extension: ms-vscode.js-debug-companion
+[2022-05-07 08:28:08.893] [remoteagent] [info] Downloaded extension: ms-vscode.js-debug-companion /home/jtorne2/.vscode-server/data/CachedExtensionVSIXs/ms-vscode.js-debug-companion-1.0.18
+[2022-05-07 08:28:12.409] [remoteagent] [info] Extracted extension to /home/jtorne2/.vscode-server/extensions/.4746b055-18e6-4fe5-ab6b-505ae1b09632: ms-vscode.js-debug-companion
+[2022-05-07 08:28:12.497] [remoteagent] [info] Renamed to /home/jtorne2/.vscode-server/extensions/ms-vscode.js-debug-companion-1.0.18
+[2022-05-07 08:28:12.533] [remoteagent] [info] Extracting completed. ms-vscode.js-debug-companion
+[2022-05-07 08:28:12.553] [remoteagent] [info] Extension installed successfully: ms-vscode.js-debug-companion
+[2022-05-07 09:12:50.019] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-07 11:19:08.048] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-08 14:05:17.086] [remoteagent] [info] [127.0.0.1][edc75646][ManagementConnection] The client has reconnected.
+[2022-05-08 14:05:19.594] [remoteagent] [info] [127.0.0.1][99a5cea0][ExtensionHostConnection] The client has reconnected.
+[2022-05-08 14:38:42.564] [remoteagent] [info] Getting Manifest... ms-vscode.cpptools
+[2022-05-08 14:38:42.813] [remoteagent] [info] Installing extension: ms-vscode.cpptools
+[2022-05-08 14:38:44.190] [remoteagent] [info] Getting Manifest... ms-vscode.cpptools-extension-pack
+[2022-05-08 14:38:44.560] [remoteagent] [info] Installing extension: ms-vscode.cpptools-extension-pack
+[2022-05-08 14:38:46.879] [remoteagent] [info] Getting Manifest... ms-vscode.cpptools
+[2022-05-08 14:38:47.299] [remoteagent] [info] Getting Manifest... ms-vscode.cmake-tools
+[2022-05-08 14:38:47.909] [remoteagent] [info] Getting Manifest... twxs.cmake
+[2022-05-08 14:38:48.293] [remoteagent] [info] Getting Manifest... twxs.cmake
+[2022-05-08 14:38:48.571] [remoteagent] [info] Getting Manifest... jeff-hykin.better-cpp-syntax
+[2022-05-08 14:38:48.845] [remoteagent] [info] Getting Manifest... ms-vscode.cpptools-themes
+[2022-05-08 14:38:49.184] [remoteagent] [info] Getting Manifest... cschlosser.doxdocgen
+[2022-05-08 14:38:49.854] [remoteagent] [info] Extension is already requested to install ms-vscode.cpptools
+[2022-05-08 14:38:49.855] [remoteagent] [info] Installing extension: ms-vscode.cmake-tools
+[2022-05-08 14:38:49.857] [remoteagent] [info] Installing extension: twxs.cmake
+[2022-05-08 14:38:49.861] [remoteagent] [info] Extension is already requested to install twxs.cmake
+[2022-05-08 14:38:49.863] [remoteagent] [info] Installing extension: jeff-hykin.better-cpp-syntax
+[2022-05-08 14:38:49.864] [remoteagent] [info] Installing extension: ms-vscode.cpptools-themes
+[2022-05-08 14:38:49.864] [remoteagent] [info] Installing extension: cschlosser.doxdocgen
+[2022-05-08 14:38:50.273] [remoteagent] [info] Downloaded extension: ms-vscode.cpptools /home/jtorne2/.vscode-server/data/CachedExtensionVSIXs/ms-vscode.cpptools-1.9.8-linux-x64
+[2022-05-08 14:38:51.326] [remoteagent] [info] Downloaded extension: ms-vscode.cpptools-themes /home/jtorne2/.vscode-server/data/CachedExtensionVSIXs/ms-vscode.cpptools-themes-1.0.0
+[2022-05-08 14:38:51.628] [remoteagent] [info] Extracted extension to /home/jtorne2/.vscode-server/extensions/.715f9d41-befa-46aa-bd89-f22c01c0697b: ms-vscode.cpptools-themes
+[2022-05-08 14:38:52.002] [remoteagent] [info] Renamed to /home/jtorne2/.vscode-server/extensions/ms-vscode.cpptools-themes-1.0.0
+[2022-05-08 14:38:52.047] [remoteagent] [info] Extracting completed. ms-vscode.cpptools-themes
+[2022-05-08 14:38:52.121] [remoteagent] [info] Downloaded extension: jeff-hykin.better-cpp-syntax /home/jtorne2/.vscode-server/data/CachedExtensionVSIXs/jeff-hykin.better-cpp-syntax-1.15.13
+[2022-05-08 14:38:52.241] [remoteagent] [info] Downloaded extension: cschlosser.doxdocgen /home/jtorne2/.vscode-server/data/CachedExtensionVSIXs/cschlosser.doxdocgen-1.4.0
+[2022-05-08 14:38:52.480] [remoteagent] [info] Downloaded extension: twxs.cmake /home/jtorne2/.vscode-server/data/CachedExtensionVSIXs/twxs.cmake-0.0.17
+[2022-05-08 14:38:52.646] [remoteagent] [info] Downloaded extension: ms-vscode.cmake-tools /home/jtorne2/.vscode-server/data/CachedExtensionVSIXs/ms-vscode.cmake-tools-1.10.5
+[2022-05-08 14:38:52.881] [remoteagent] [info] Extracted extension to /home/jtorne2/.vscode-server/extensions/.4eb8d906-56d2-4f21-9fa3-f843cfa0872a: jeff-hykin.better-cpp-syntax
+[2022-05-08 14:38:52.913] [remoteagent] [info] Renamed to /home/jtorne2/.vscode-server/extensions/jeff-hykin.better-cpp-syntax-1.15.13
+[2022-05-08 14:38:52.923] [remoteagent] [info] Extracting completed. jeff-hykin.better-cpp-syntax
+[2022-05-08 14:38:55.090] [remoteagent] [info] Extracted extension to /home/jtorne2/.vscode-server/extensions/.50b5af61-53a5-4ce7-aa47-cf848765a207: twxs.cmake
+[2022-05-08 14:38:55.114] [remoteagent] [info] Renamed to /home/jtorne2/.vscode-server/extensions/twxs.cmake-0.0.17
+[2022-05-08 14:38:55.127] [remoteagent] [info] Extracting completed. twxs.cmake
+[2022-05-08 14:38:55.144] [remoteagent] [info] Extracted extension to /home/jtorne2/.vscode-server/extensions/.715e679a-8afe-4dd0-844f-cddedc6d5470: ms-vscode.cmake-tools
+[2022-05-08 14:38:55.170] [remoteagent] [info] Renamed to /home/jtorne2/.vscode-server/extensions/ms-vscode.cmake-tools-1.10.5
+[2022-05-08 14:38:55.180] [remoteagent] [info] Extracting completed. ms-vscode.cmake-tools
+[2022-05-08 14:38:59.836] [remoteagent] [info] Getting Manifest... danielpinto8zz6.c-cpp-compile-run
+[2022-05-08 14:39:00.003] [remoteagent] [info] Installing extension: danielpinto8zz6.c-cpp-compile-run
+[2022-05-08 14:39:01.795] [remoteagent] [info] Downloaded extension: danielpinto8zz6.c-cpp-compile-run /home/jtorne2/.vscode-server/data/CachedExtensionVSIXs/danielpinto8zz6.c-cpp-compile-run-1.0.15
+[2022-05-08 14:39:04.244] [remoteagent] [info] Extracted extension to /home/jtorne2/.vscode-server/extensions/.821ce04e-7161-477d-bcb0-9c83af478d7d: danielpinto8zz6.c-cpp-compile-run
+[2022-05-08 14:39:04.280] [remoteagent] [info] Getting Manifest... franneck94.c-cpp-runner
+[2022-05-08 14:39:04.327] [remoteagent] [info] Renamed to /home/jtorne2/.vscode-server/extensions/danielpinto8zz6.c-cpp-compile-run-1.0.15
+[2022-05-08 14:39:04.345] [remoteagent] [info] Extracting completed. danielpinto8zz6.c-cpp-compile-run
+[2022-05-08 14:39:04.357] [remoteagent] [info] Extension installed successfully: danielpinto8zz6.c-cpp-compile-run
+[2022-05-08 14:39:04.475] [remoteagent] [info] Installing extension: franneck94.c-cpp-runner
+[2022-05-08 14:39:05.467] [remoteagent] [info] Extracted extension to /home/jtorne2/.vscode-server/extensions/.caceb472-b81e-46ef-848e-7ef132aaebeb: cschlosser.doxdocgen
+[2022-05-08 14:39:05.697] [remoteagent] [info] Renamed to /home/jtorne2/.vscode-server/extensions/cschlosser.doxdocgen-1.4.0
+[2022-05-08 14:39:05.720] [remoteagent] [info] Extracting completed. cschlosser.doxdocgen
+[2022-05-08 14:39:06.470] [remoteagent] [info] Getting Manifest... ms-vscode.cpptools
+[2022-05-08 14:39:06.601] [remoteagent] [info] Getting Manifest... vadimcn.vscode-lldb
+[2022-05-08 14:39:07.263] [remoteagent] [info] Downloaded extension: ms-vscode.cpptools-extension-pack /home/jtorne2/.vscode-server/data/CachedExtensionVSIXs/ms-vscode.cpptools-extension-pack-1.2.0
+[2022-05-08 14:39:07.656] [remoteagent] [info] Extension is already requested to install ms-vscode.cpptools
+[2022-05-08 14:39:07.657] [remoteagent] [info] Installing extension: vadimcn.vscode-lldb
+[2022-05-08 14:39:08.393] [remoteagent] [info] Extracted extension to /home/jtorne2/.vscode-server/extensions/.81bf2097-cc4d-4e81-bc0d-eb360b2e2ce7: ms-vscode.cpptools-extension-pack
+[2022-05-08 14:39:08.484] [remoteagent] [info] Renamed to /home/jtorne2/.vscode-server/extensions/ms-vscode.cpptools-extension-pack-1.2.0
+[2022-05-08 14:39:08.509] [remoteagent] [info] Extracting completed. ms-vscode.cpptools-extension-pack
+[2022-05-08 14:39:08.509] [remoteagent] [info] Extension installed successfully: ms-vscode.cpptools-themes
+[2022-05-08 14:39:08.510] [remoteagent] [info] Extension installed successfully: jeff-hykin.better-cpp-syntax
+[2022-05-08 14:39:08.510] [remoteagent] [info] Extension installed successfully: twxs.cmake
+[2022-05-08 14:39:08.510] [remoteagent] [info] Extension installed successfully: ms-vscode.cmake-tools
+[2022-05-08 14:39:08.510] [remoteagent] [info] Extension installed successfully: cschlosser.doxdocgen
+[2022-05-08 14:39:08.510] [remoteagent] [info] Extension installed successfully: ms-vscode.cpptools-extension-pack
+[2022-05-08 14:39:09.087] [remoteagent] [info] Downloaded extension: vadimcn.vscode-lldb /home/jtorne2/.vscode-server/data/CachedExtensionVSIXs/vadimcn.vscode-lldb-1.7.0
+[2022-05-08 14:39:09.683] [remoteagent] [info] Extracted extension to /home/jtorne2/.vscode-server/extensions/.4ea806ad-328a-45b9-9e75-323b1b4c5ee1: vadimcn.vscode-lldb
+[2022-05-08 14:39:09.799] [remoteagent] [info] Renamed to /home/jtorne2/.vscode-server/extensions/vadimcn.vscode-lldb-1.7.0
+[2022-05-08 14:39:09.804] [remoteagent] [info] Extracting completed. vadimcn.vscode-lldb
+[2022-05-08 14:39:11.121] [remoteagent] [info] Getting Manifest... utsavm9.c-cpp-flag-debugging
+[2022-05-08 14:39:11.376] [remoteagent] [info] Installing extension: utsavm9.c-cpp-flag-debugging
+[2022-05-08 14:39:11.862] [remoteagent] [info] Downloaded extension: franneck94.c-cpp-runner /home/jtorne2/.vscode-server/data/CachedExtensionVSIXs/franneck94.c-cpp-runner-3.4.0
+[2022-05-08 14:39:13.240] [remoteagent] [warning] [/home/jtorne2/.vscode-server/extensions/ms-vscode.cpptools-extension-pack-1.2.0]: property `extensionKind` can be defined only if property `main` is also defined.
+[2022-05-08 14:39:14.138] [remoteagent] [info] Downloaded extension: utsavm9.c-cpp-flag-debugging /home/jtorne2/.vscode-server/data/CachedExtensionVSIXs/utsavm9.c-cpp-flag-debugging-0.0.1
+[2022-05-08 14:39:14.529] [remoteagent] [info] Extracted extension to /home/jtorne2/.vscode-server/extensions/.98756279-c3e1-4634-9e67-b519ddf8a1ed: utsavm9.c-cpp-flag-debugging
+[2022-05-08 14:39:14.643] [remoteagent] [info] Renamed to /home/jtorne2/.vscode-server/extensions/utsavm9.c-cpp-flag-debugging-0.0.1
+[2022-05-08 14:39:14.660] [remoteagent] [info] Extracting completed. utsavm9.c-cpp-flag-debugging
+[2022-05-08 14:39:14.660] [remoteagent] [info] Extension installed successfully: utsavm9.c-cpp-flag-debugging
+[2022-05-08 14:39:17.025] [remoteagent] [info] Extracted extension to /home/jtorne2/.vscode-server/extensions/.ed53327b-e84a-4819-b917-7d3723473d19: franneck94.c-cpp-runner
+[2022-05-08 14:39:17.155] [remoteagent] [info] Renamed to /home/jtorne2/.vscode-server/extensions/franneck94.c-cpp-runner-3.4.0
+[2022-05-08 14:39:17.269] [remoteagent] [info] Extracting completed. franneck94.c-cpp-runner
+[2022-05-08 14:39:17.310] [remoteagent] [info] Extension installed successfully: vadimcn.vscode-lldb
+[2022-05-08 14:39:17.310] [remoteagent] [info] Extension installed successfully: franneck94.c-cpp-runner
+[2022-05-08 14:39:36.187] [remoteagent] [info] Extracted extension to /home/jtorne2/.vscode-server/extensions/.742662bd-f708-45dd-836b-2a51fe57e47f: ms-vscode.cpptools
+[2022-05-08 14:39:36.241] [remoteagent] [info] Renamed to /home/jtorne2/.vscode-server/extensions/ms-vscode.cpptools-1.9.8-linux-x64
+[2022-05-08 14:39:36.265] [remoteagent] [info] Extracting completed. ms-vscode.cpptools
+[2022-05-08 14:39:36.274] [remoteagent] [info] Extension installed successfully: ms-vscode.cpptools
+[2022-05-08 14:39:59.510] [remoteagent] [info] Getting Manifest... ms-vscode.cpptools
+[2022-05-08 14:39:59.690] [remoteagent] [info] Installing extension: ms-vscode.cpptools
+[2022-05-08 14:40:00.654] [remoteagent] [info] Downloaded extension: ms-vscode.cpptools /home/jtorne2/.vscode-server/data/CachedExtensionVSIXs/ms-vscode.cpptools-1.9.8-linux-x64
+[2022-05-08 14:40:13.710] [remoteagent] [info] Extracted extension to /home/jtorne2/.vscode-server/extensions/.fa3795de-39ad-4f6c-afb4-0ca4d948bf56: ms-vscode.cpptools
+[2022-05-08 14:40:13.731] [remoteagent] [info] Renamed to /home/jtorne2/.vscode-server/extensions/ms-vscode.cpptools-1.9.8-linux-x64
+[2022-05-08 14:40:13.739] [remoteagent] [info] Extracting completed. ms-vscode.cpptools
+[2022-05-08 14:40:13.740] [remoteagent] [info] Extension installed successfully: ms-vscode.cpptools
+[2022-05-08 14:40:20.032] [remoteagent] [info] [127.0.0.1][edc75646][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-05-08 14:40:20.369] [remoteagent] [info] [127.0.0.1][99a5cea0][ExtensionHostConnection] <110> Extension Host Process exited with code: 0, signal: null.
