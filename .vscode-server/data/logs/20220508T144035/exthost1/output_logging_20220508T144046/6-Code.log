@@ -1,0 +1,14 @@
+[Running] cd "/home/jtorne2/" && g++ main.cpp -o main && "/home/jtorne2/"main
+Welcome to File Management System Simulation. Enter a command or enter 'help' to see a list of commands.
+>> 
+[Done] exited with code=null in 85.498 seconds
+
+[Running] cd "/home/jtorne2/" && g++ main.cpp -o main && "/home/jtorne2/"main
+Welcome to File Management System Simulation. Enter a command or enter 'help' to see a list of commands.
+>> 
+[Done] exited with code=null in 29.601 seconds
+
+[Running] cd "/home/jtorne2/" && gcc fileTree.c -o fileTree && "/home/jtorne2/"fileTree
+
+[Done] exited with code=null in 48.598 seconds
+

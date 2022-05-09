@@ -12,8 +12,7 @@ struct fileNode
 
 char filename[100];
 struct fileNode* next;
-struct fileNode
-* prev;
+struct fileNode* prev;
 };
 
 

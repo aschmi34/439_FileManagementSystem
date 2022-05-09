@@ -27,3 +27,13 @@
 [2022-05-09 00:22:31.648] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
 [2022-05-09 00:23:08.566] [remoteagent] [info] [127.0.0.1][4ec86c58][ExtensionHostConnection] The client has reconnected.
 [2022-05-09 00:24:40.282] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-09 06:33:01.767] [remoteagent] [info] [127.0.0.1][02f6031e][ManagementConnection] The client has reconnected.
+[2022-05-09 06:33:04.382] [remoteagent] [info] [127.0.0.1][4ec86c58][ExtensionHostConnection] The client has reconnected.
+[2022-05-09 10:33:42.044] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-09 10:38:11.324] [remoteagent] [info] Getting Manifest... formulahendry.code-runner
+[2022-05-09 10:38:11.530] [remoteagent] [info] Installing extension: formulahendry.code-runner
+[2022-05-09 10:38:19.566] [remoteagent] [info] Downloaded extension: formulahendry.code-runner /home/jtorne2/.vscode-server/data/CachedExtensionVSIXs/formulahendry.code-runner-0.11.7
+[2022-05-09 10:38:24.761] [remoteagent] [info] Extracted extension to /home/jtorne2/.vscode-server/extensions/.1bc80fb7-976b-4667-ad5d-ecab215a8079: formulahendry.code-runner
+[2022-05-09 10:38:24.814] [remoteagent] [info] Renamed to /home/jtorne2/.vscode-server/extensions/formulahendry.code-runner-0.11.7
+[2022-05-09 10:38:24.817] [remoteagent] [info] Extracting completed. formulahendry.code-runner
+[2022-05-09 10:38:24.833] [remoteagent] [info] Extension installed successfully: formulahendry.code-runner
