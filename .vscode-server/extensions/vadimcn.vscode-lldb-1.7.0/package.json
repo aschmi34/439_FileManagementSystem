@@ -1022,5 +1022,11 @@
 				"ia32-win32": "codelldb-x86_64-windows.vsix"
 			}
 		}
+	},
+	"__metadata": {
+		"id": "bee31e34-a44b-4a76-9ec2-e9fd1439a0f6",
+		"publisherDisplayName": "Vadim Chugunov",
+		"publisherId": "3b05d186-6311-4caa-99b5-09032a9d3cf5",
+		"isPreReleaseVersion": false
 	}
 }

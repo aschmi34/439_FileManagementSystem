@@ -5,3 +5,25 @@
 [2022-05-08 14:40:42.266] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
 [2022-05-08 14:40:42.373] [remoteagent] [info] [127.0.0.1][4ec86c58][ExtensionHostConnection] <9786> Launched Extension Host Process.
 [2022-05-08 14:40:43.444] [remoteagent] [info] Deleted from disk ms-vscode.js-debug-companion /home/jtorne2/.vscode-server/extensions/ms-vscode.js-debug-companion-1.0.17
+[2022-05-08 16:43:41.819] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-08 18:45:11.429] [remoteagent] [info] [127.0.0.1][02f6031e][ManagementConnection] The client has reconnected.
+[2022-05-08 18:45:12.274] [remoteagent] [info] [127.0.0.1][4ec86c58][ExtensionHostConnection] The client has reconnected.
+[2022-05-08 18:46:47.207] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-08 21:27:46.898] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-08 21:28:49.114] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-08 21:29:01.751] [remoteagent] [error] No ptyHost heartbeat after 12 seconds
+[2022-05-08 21:29:55.480] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-08 23:56:55.277] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-08 23:58:59.630] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-09 00:10:15.548] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-09 00:10:25.841] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-09 00:15:35.178] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-09 00:21:05.238] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-09 00:21:15.394] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-09 00:21:36.725] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-09 00:22:14.197] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-09 00:22:17.457] [remoteagent] [info] [127.0.0.1][02f6031e][ManagementConnection] The client has reconnected.
+[2022-05-09 00:22:21.215] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-09 00:22:31.648] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-09 00:23:08.566] [remoteagent] [info] [127.0.0.1][4ec86c58][ExtensionHostConnection] The client has reconnected.
+[2022-05-09 00:24:40.282] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
