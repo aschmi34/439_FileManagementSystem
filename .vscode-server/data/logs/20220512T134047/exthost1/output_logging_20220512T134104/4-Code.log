@@ -1,0 +1,5 @@
+[Running] cd "/home/jtorne2/" && gcc FileManagement.c -o FileManagement && "/home/jtorne2/"FileManagement
+Terminated
+
+[Done] exited with code=143 in 67.6 seconds
+

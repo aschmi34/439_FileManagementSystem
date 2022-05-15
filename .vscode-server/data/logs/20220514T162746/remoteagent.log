@@ -1,0 +1,20 @@
+[2022-05-14 16:27:47.328] [remoteagent] [info] Extension host agent started.
+[2022-05-14 16:27:48.911] [remoteagent] [info] [127.0.0.1][67a4daa7][ManagementConnection] New connection established.
+[2022-05-14 16:27:49.405] [remoteagent] [info] [127.0.0.1][59a965e3][ExtensionHostConnection] New connection established.
+[2022-05-14 16:27:49.614] [remoteagent] [info] [127.0.0.1][59a965e3][ExtensionHostConnection] <81> Launched Extension Host Process.
+[2022-05-14 16:27:53.093] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-14 16:57:12.280] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-14 17:02:48.968] [remoteagent] [info] [127.0.0.1][59a965e3][ExtensionHostConnection] The client has reconnected.
+[2022-05-14 17:02:53.720] [remoteagent] [info] [127.0.0.1][67a4daa7][ManagementConnection] The client has reconnected.
+[2022-05-14 17:06:21.145] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/jtorne2)
+[2022-05-14 17:06:21.148] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: std::bad_alloc
+[2022-05-14 17:47:31.711] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/jtorne2)
+[2022-05-14 17:47:31.712] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: std::bad_alloc
+[2022-05-14 18:04:49.086] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/jtorne2)
+[2022-05-14 18:04:49.088] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: std::bad_alloc
+[2022-05-14 18:43:41.684] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/jtorne2)
+[2022-05-14 18:43:41.695] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: std::bad_alloc
+[2022-05-14 19:32:32.847] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/jtorne2)
+[2022-05-14 19:32:32.849] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: std::bad_alloc
+[2022-05-14 19:35:33.663] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/jtorne2)
+[2022-05-14 19:35:33.664] [remoteagent] [error] [File Watcher (universal)] gave up attempting to restart watcher after error: std::bad_alloc
