@@ -22,3 +22,5 @@
 [2022-05-16 02:55:34.485] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
 [2022-05-16 08:07:15.753] [remoteagent] [info] [127.0.0.1][34b72c20][ExtensionHostConnection] The client has reconnected.
 [2022-05-16 08:07:15.776] [remoteagent] [info] [127.0.0.1][87fd6ad2][ManagementConnection] The client has reconnected.
+[2022-05-16 15:39:26.799] [remoteagent] [info] [127.0.0.1][87fd6ad2][ManagementConnection] The client has reconnected.
+[2022-05-16 15:39:27.415] [remoteagent] [info] [127.0.0.1][34b72c20][ExtensionHostConnection] The client has reconnected.
