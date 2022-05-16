@@ -640,3 +640,122 @@ gcc FileManagement.c -o FM
 ./FM
 gcc FileManagement.c -o FM
 ./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+git status
+git add .
+git commit -m "list and clear dir cache"
+git push origin
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM

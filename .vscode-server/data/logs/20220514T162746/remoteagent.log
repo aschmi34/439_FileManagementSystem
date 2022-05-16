@@ -18,3 +18,14 @@
 [2022-05-14 19:32:32.849] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: std::bad_alloc
 [2022-05-14 19:35:33.663] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/jtorne2)
 [2022-05-14 19:35:33.664] [remoteagent] [error] [File Watcher (universal)] gave up attempting to restart watcher after error: std::bad_alloc
+[2022-05-15 00:04:27.019] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-15 00:04:47.103] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-15 10:15:39.986] [remoteagent] [info] [127.0.0.1][67a4daa7][ManagementConnection] The client has reconnected.
+[2022-05-15 10:15:40.675] [remoteagent] [info] [127.0.0.1][59a965e3][ExtensionHostConnection] The client has reconnected.
+[2022-05-15 15:38:16.769] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-15 16:05:07.981] [remoteagent] [info] [127.0.0.1][59a965e3][ExtensionHostConnection] The client has reconnected.
+[2022-05-15 16:05:08.010] [remoteagent] [info] [127.0.0.1][67a4daa7][ManagementConnection] The client has reconnected.
+[2022-05-15 19:49:40.438] [remoteagent] [info] [127.0.0.1][67a4daa7][ManagementConnection] The client has reconnected.
+[2022-05-15 19:49:40.991] [remoteagent] [info] [127.0.0.1][59a965e3][ExtensionHostConnection] The client has reconnected.
+[2022-05-15 22:38:08.381] [remoteagent] [info] [127.0.0.1][67a4daa7][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-05-15 22:38:09.140] [remoteagent] [info] [127.0.0.1][59a965e3][ExtensionHostConnection] <81> Extension Host Process exited with code: 0, signal: null.

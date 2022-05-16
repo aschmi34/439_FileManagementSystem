@@ -841,3 +841,7 @@
 [2022-05-14 19:35:16.614] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4107
 [2022-05-14 19:35:26.362] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4107
 [2022-05-14 19:35:37.620] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4107
+[2022-05-14 23:48:05.546] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4106
+[2022-05-15 22:38:08.308] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-05-15 22:38:08.311] [exthost] [info] Lock '/home/jtorne2/.vscode-server/data/User/workspaceStorage/faf95380bff7befa0e8455c263d445cf/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-05-15 22:38:08.986] [exthost] [info] Extension host with pid 81 exiting with code 0
