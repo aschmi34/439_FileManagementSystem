@@ -759,3 +759,263 @@ gcc FileManagement.c -o FM
 ./FM
 gcc FileManagement.c -o FM
 ./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+git add .
+git commit -m "Done for the most part, still need tweaks"
+git push origin
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+8
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+4
+./FM
+4
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+git add . 
+git commit -m "fixed head point"
+git push origin
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+4
+gcc FileManagement.c -o FM
+4
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM
+./FM
+gcc FileManagement.c -o FM

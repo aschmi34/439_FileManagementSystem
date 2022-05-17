@@ -1,0 +1,10 @@
+[2022-05-16 20:38:27.949] [remoteagent] [info] Extension host agent started.
+[2022-05-16 20:38:30.124] [remoteagent] [info] [127.0.0.1][829f6db2][ManagementConnection] New connection established.
+[2022-05-16 20:38:30.302] [remoteagent] [info] [127.0.0.1][a6444822][ExtensionHostConnection] New connection established.
+[2022-05-16 20:38:35.204] [remoteagent] [info] [127.0.0.1][a6444822][ExtensionHostConnection] <141> Launched Extension Host Process.
+[2022-05-16 21:06:37.545] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/jtorne2)
+[2022-05-16 21:06:37.550] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: std::bad_alloc
+[2022-05-16 21:16:05.210] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/jtorne2)
+[2022-05-16 21:16:05.213] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: std::bad_alloc
+[2022-05-16 21:42:35.538] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/jtorne2)
+[2022-05-16 21:42:35.569] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: std::bad_alloc

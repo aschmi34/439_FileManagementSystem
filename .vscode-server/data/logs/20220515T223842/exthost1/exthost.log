@@ -20,3 +20,13 @@
 [2022-05-15 22:39:07.330] [exthost] [info] Eager extensions activated
 [2022-05-16 08:55:01.061] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
 [2022-05-16 08:55:03.524] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+[2022-05-16 18:55:32.319] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-05-16 18:55:32.521] [exthost] [info] Lock '/home/jtorne2/.vscode-server/data/User/workspaceStorage/faf95380bff7befa0e8455c263d445cf/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-05-16 18:55:33.526] [exthost] [error] [ms-vscode.cpptools] provider FAILED
+[2022-05-16 18:55:33.533] [exthost] [error] Error: Connection got disposed.
+	at Object.dispose (/home/jtorne2/.vscode-server/extensions/ms-vscode.cpptools-1.9.8-linux-x64/dist/main.js:48037:25)
+	at Object.dispose (/home/jtorne2/.vscode-server/extensions/ms-vscode.cpptools-1.9.8-linux-x64/dist/main.js:48957:35)
+	at /home/jtorne2/.vscode-server/extensions/ms-vscode.cpptools-1.9.8-linux-x64/dist/main.js:50951:28
+	at async Promise.all (index 17)
+	at async m._deactivateAll (/home/jtorne2/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/workbench/api/node/extensionHostProcess.js:88:10665)
+[2022-05-16 18:55:33.534] [exthost] [info] Extension host with pid 117 exiting with code 0
