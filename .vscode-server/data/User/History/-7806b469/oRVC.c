@@ -210,28 +210,64 @@ struct fileNode *createNode(struct fileNode *prev_node, char new_data[])
     return new_node;
 }
 
-struct fileNode *insertRight(struct fileNode *prev_node, char new_data[])
+struct fileNode *insertRight(struct fileNode *prev_node, char new_data[], struct fileNode *copy)
 {
+ printf("\ncurrent dirR: %s/%s", copy->filename, new_data);
+    printf("\nroot dir: %s/%s", prev_node->filename, new_data);
+   while(prev_node!=NULL){
+    printf("\ncurrent path: %s/%s", prev_node->filename, new_data);
+        if(strcmp(("%s",prev_node->filename),("%s",copy->filename))==0){
+    printf("\ncurrent path2: %s/%s", prev_node->filename, new_data);
+    printf("\ncurrent path3: %s/%s", copy->filename, new_data);
+            if(prev_node->right!=NULL){
+            prev_node->left= createNode(prev_node->left,new_data);
+            return prev_node->left;
+            
+            }
+        // }else{
 
-    printf("\ninsertR: %s/%s", prev_node->filename, new_data);
+        }
+        prev_node=prev_node->right;
+    }
     prev_node->right = createNode(prev_node, new_data);
+    printf("\ninsertL: %s/%s", prev_node->right->filename, new_data);
     return prev_node->right;
 }
-struct fileNode *insertleft(struct fileNode *prev_node, char new_data[])
+struct fileNode *insertleft(struct fileNode *prev_node, char new_data[], struct fileNode *copy)
 {
-    printf("\ninsertL: %s/%s", prev_node->filename, new_data);
+    printf("\ncurrent dirL: %s/%s", copy->filename, new_data);
+    printf("\nroot dir: %s/%s", prev_node->filename, new_data);
+   while(prev_node!=NULL){
+    printf("\ncurrent path: %s/%s", prev_node->filename, new_data);
+        if(strcmp(("%s",prev_node->filename),("%s",copy->filename))==0){
+    printf("\ncurrent path2: %s/%s", prev_node->filename, new_data);
+    printf("\ncurrent path3: %s/%s", copy->filename, new_data);
+            if(prev_node->left!=NULL){
+            prev_node->right= createNode(prev_node,new_data);
+            return prev_node->right;
+            
+            }else{
+                prev_node->left= createNode(prev_node,new_data);
+            return prev_node->left;
+            }
+        // }else{
+
+        }
+        prev_node=prev_node->left;
+    }
     prev_node->left = createNode(prev_node, new_data);
+    printf("\ninsertL: %s/%s", prev_node->filename, new_data);
     return prev_node->left;
 }
 
-struct fileNode *insertRightF(struct fileNode *prev_node, char new_data[])
+struct fileNode *insertRightF(struct fileNode *prev_node, char new_data[], struct fileNode *copy)
 {
 
     printf("\ninsertRF: %s/%s", prev_node->filename, new_data);
     prev_node->right->right = createNode(prev_node, new_data);
     return prev_node->right->right;
 }
-struct fileNode *insertleftF(struct fileNode *prev_node, char new_data[])
+struct fileNode *insertleftF(struct fileNode *prev_node, char new_data[], struct fileNode *copy)
 {
 
     printf("\ninsertLF: %s/%s", prev_node->filename, new_data);
@@ -241,27 +277,52 @@ struct fileNode *insertleftF(struct fileNode *prev_node, char new_data[])
 
 struct fileNode *removeleft(struct fileNode *prev_node, char new_data[], struct fileNode *copy)
 {
+// printf("\ncurrent dirL: %s", copy->filename);
 
+// printf("\nroot dir: %s", prev_node->filename);
+    while (prev_node != NULL)
+    {
+        // printf("\ncurrent path1: %s/%s", prev_node->filename, new_data);
+        if (strcmp(("%s", prev_node->filename), ("%s", copy->filename)))
+        {
+            // printf("\ncurrent path: %s/%s", prev_node->filename, new_data);
+            if (prev_node->left != NULL && prev_node->right != NULL)
+            {
+            }
+            else
+            {
+                
+                prev_node->left = deleteLNode(prev_node->left, new_data);
+                // prev_node->right->right = makeTdir(1, prev_node->right, new_data);
+                return prev_node;
+            }
+
+            prev_node = prev_node->left;
+        }
+    }
     prev_node->left = deleteLNode(prev_node, new_data);
     return prev_node->left;
 }
 struct fileNode *removeRight(struct fileNode *prev_node, char new_data[], struct fileNode *copy)
 {
-    printf("\ncurrent dir: %s", copy->filename);
-    while (prev_node->right != NULL)
+    // printf("\ncurrent dirR: %s", copy->filename);
+    
+// printf("\nroot dir: %s", prev_node->filename);
+    while (prev_node != NULL)
     {
-        printf("\ncurrent path: %s/%s", prev_node->filename, new_data);
-        if (strcmp(("%s", prev_node->right->filename), ("%s", copy->filename)))
+        // printf("\ncurrent path: %s/%s", prev_node->filename, new_data);
+        if (strcmp(("%s", prev_node->filename), ("%s", copy->filename)))
         {
-            printf("\ncurrent path: %s/%s", prev_node->filename, new_data);
-            if (prev_node->right->right != NULL && prev_node->right->left != NULL)
+            // printf("\ncurrent path: %s/%s", prev_node->filename, new_data);
+            if (prev_node->right != NULL && prev_node->left != NULL)
             {
             }
             else
             {
-
-                prev_node->right->right = makeTdir(1, prev_node->right, new_data);
-                return prev_node->left->right;
+                    
+                prev_node->right = deleteLNode(prev_node->right, new_data);
+                // prev_node->right->right = makeTdir(1, prev_node->right, new_data);
+                return prev_node->right->left;
             }
 
             prev_node = prev_node->right;
@@ -276,7 +337,7 @@ struct fileNode *removeleftF(struct fileNode *prev_node, char new_data[], struct
     prev_node->left->left = deleteLNode(prev_node, new_data);
     return prev_node->left->left;
 }
-struct fileNode *removeRightF(struct fileNode *prev_node, char new_data[], struct fileNode * __attribute_copy__)
+struct fileNode *removeRightF(struct fileNode *prev_node, char new_data[], struct fileNode * copy)
 {
 
     prev_node->right->right = deleteRNode(prev_node, new_data);

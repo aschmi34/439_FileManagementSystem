@@ -139,7 +139,8 @@ struct fileNode *deleteRNodeD(struct fileNode *prev_node, char new_data[])
         dir[i] = prev_node->filename[i];
         str[i] = new_data[i];
     }
-
+        //   printf("\nTprevnode:%s",prev_node->filename);
+        // printf("\ndir:%s",dir);
     if (remove(("%s", dir)) == 0)
     {
         printf("\nThe directory is deleted successfully.\n");
@@ -168,6 +169,8 @@ struct fileNode *deleteLNodeD(struct fileNode *prev_node, char new_data[])
         dir[i] = prev_node->filename[i];
         str[i] = new_data[i];
     }
+        // printf("\nTprevnode:%s",prev_node->filename);
+        // printf("\ndir:%s",dir);
 
     if (remove(("%s", dir)) == 0)
     {
@@ -180,50 +183,70 @@ struct fileNode *deleteLNodeD(struct fileNode *prev_node, char new_data[])
     return NULL;
 }
 
-struct fileNode *insertleftD(struct fileNode *prev_node, char new_data[])
+struct fileNode *insertleftD(struct fileNode *prev_node, char new_data[], struct fileNode *copy)
 {
-
-    printf("\ninsertLD: %s/%s", prev_node->filename, new_data);
+    
+    // printf("\ncurrent dir: %s", copy->filename);
     while(prev_node->left!=NULL){
-        // if(prev_node->right==NULL){
-        //     prev_node->right= makeTdir(1,prev_node,new_data);
-        //     return prev_node->right;
+    // printf("\ncurrent path: %s/%s", prev_node->filename, new_data);
+        if(strcmp(("%s",prev_node->left->filename),("%s",copy->filename))==0){
+    // printf("\ncurrent path2: %s/%s", prev_node->left->filename, new_data);
+    // printf("\ncurrent path3: %s/%s", copy->filename, new_data);
+            if(prev_node->left->left!=NULL){
+            prev_node->left->right= makeTdir(1,prev_node->left,new_data);
+            return prev_node->left->right;
+            
+            }
         // }else{
 
+        }
         prev_node=prev_node->left;
-        // }
     }
     prev_node->left = makeTdir(1, prev_node, new_data);
+    printf("\ninsertLD: %s/%s", prev_node->filename, new_data);
     return prev_node->left;
 }
-struct fileNode *insertRightD(struct fileNode *prev_node, char new_data[])
+struct fileNode *insertRightD(struct fileNode *prev_node, char new_data[], struct fileNode *copy)
 {
 
-    printf("\ninsertRD: %s/%s", prev_node->filename, new_data);
+    // printf("\ncurrent dir: %s", copy->filename);
     while(prev_node->right!=NULL){
-        if(prev_node->left==NULL){
-            insertleftD(prev_node,new_data);
-        }else{
+    // printf("\ncurrent path: %s/%s", prev_node->filename, new_data);
+         if(strcmp(("%s",prev_node->right->filename),("%s",copy->filename))){
+    // printf("\ncurrent path: %s/%s", prev_node->filename, new_data);
+            if(prev_node->right->right!=NULL && prev_node->right->left!=NULL){
+            
+            }else{
 
+            prev_node->right->right= makeTdir(1,prev_node->right,new_data);
+            return prev_node->left->right;
+            }
+            
+            
         prev_node=prev_node->right;
         }
     }
     prev_node->right = makeTdir(1, prev_node, new_data);
+    printf("\ninsertRD: %s/%s", prev_node->filename, new_data);
     return prev_node->right;
 }
-struct fileNode *removeleftD(struct fileNode *prev_node, char new_data[])
+struct fileNode *removeleftD(struct fileNode *prev_node, char new_data[],struct fileNode *copy)
 {
 
-    printf("\nremoveRD: %s/%s", prev_node->filename, new_data);
-    prev_node->left = deleteLNodeD(prev_node, new_data);
+    printf("\nremoveLD: %s/%s", prev_node->filename, new_data);
+    printf("\nremoveLd: %s/%s", copy->filename, new_data);
+    prev_node->left = deleteLNodeD(copy, new_data);
     return prev_node->left;
 }
-struct fileNode *removeRightD(struct fileNode *prev_node, char new_data[])
+struct fileNode *removeRightD(struct fileNode *prev_node, char new_data[],struct fileNode *copy)
 {
 
     printf("\nremoveRd: %s/%s", prev_node->filename, new_data);
-    prev_node->right = deleteRNodeD(prev_node, new_data);
+    
+    printf("\nremoveRd: %s/%s", copy->filename, new_data);
+    prev_node->right = deleteRNodeD(copy, new_data);
     return prev_node->right;
+
 }
 
 // /* Driver program to test above functions*/

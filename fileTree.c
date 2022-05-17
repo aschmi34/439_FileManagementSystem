@@ -212,13 +212,13 @@ struct fileNode *createNode(struct fileNode *prev_node, char new_data[])
 
 struct fileNode *insertRight(struct fileNode *prev_node, char new_data[], struct fileNode *copy)
 {
- printf("\ncurrent dirR: %s/%s", copy->filename, new_data);
-    printf("\nroot dir: %s/%s", prev_node->filename, new_data);
+//  printf("\ncurrent dirR: %s/%s", copy->filename, new_data);
+    // printf("\nroot dir: %s/%s", prev_node->filename, new_data);
    while(prev_node!=NULL){
-    printf("\ncurrent path: %s/%s", prev_node->filename, new_data);
+    // printf("\ncurrent path: %s/%s", prev_node->filename, new_data);
         if(strcmp(("%s",prev_node->filename),("%s",copy->filename))==0){
-    printf("\ncurrent path2: %s/%s", prev_node->filename, new_data);
-    printf("\ncurrent path3: %s/%s", copy->filename, new_data);
+    // printf("\ncurrent path2: %s/%s", prev_node->filename, new_data);
+    // printf("\ncurrent path3: %s/%s", copy->filename, new_data);
             if(prev_node->right!=NULL){
             prev_node->left= createNode(prev_node->left,new_data);
             return prev_node->left;
@@ -235,13 +235,13 @@ struct fileNode *insertRight(struct fileNode *prev_node, char new_data[], struct
 }
 struct fileNode *insertleft(struct fileNode *prev_node, char new_data[], struct fileNode *copy)
 {
-    printf("\ncurrent dirL: %s/%s", copy->filename, new_data);
-    printf("\nroot dir: %s/%s", prev_node->filename, new_data);
+    // printf("\ncurrent dirL: %s/%s", copy->filename, new_data);
+    // printf("\nroot dir: %s/%s", prev_node->filename, new_data);
    while(prev_node!=NULL){
-    printf("\ncurrent path: %s/%s", prev_node->filename, new_data);
+    // printf("\ncurrent path: %s/%s", prev_node->filename, new_data);
         if(strcmp(("%s",prev_node->filename),("%s",copy->filename))==0){
-    printf("\ncurrent path2: %s/%s", prev_node->filename, new_data);
-    printf("\ncurrent path3: %s/%s", copy->filename, new_data);
+    // printf("\ncurrent path2: %s/%s", prev_node->filename, new_data);
+    // printf("\ncurrent path3: %s/%s", copy->filename, new_data);
             if(prev_node->left!=NULL){
             prev_node->right= createNode(prev_node,new_data);
             return prev_node->right;
@@ -277,15 +277,15 @@ struct fileNode *insertleftF(struct fileNode *prev_node, char new_data[], struct
 
 struct fileNode *removeleft(struct fileNode *prev_node, char new_data[], struct fileNode *copy)
 {
-printf("\ncurrent dirL: %s", copy->filename);
+// printf("\ncurrent dirL: %s", copy->filename);
 
-printf("\nroot dir: %s", prev_node->filename);
+// printf("\nroot dir: %s", prev_node->filename);
     while (prev_node != NULL)
     {
-        printf("\ncurrent path1: %s/%s", prev_node->filename, new_data);
+        // printf("\ncurrent path1: %s/%s", prev_node->filename, new_data);
         if (strcmp(("%s", prev_node->filename), ("%s", copy->filename)))
         {
-            printf("\ncurrent path: %s/%s", prev_node->filename, new_data);
+            // printf("\ncurrent path: %s/%s", prev_node->filename, new_data);
             if (prev_node->left != NULL && prev_node->right != NULL)
             {
             }
@@ -305,15 +305,15 @@ printf("\nroot dir: %s", prev_node->filename);
 }
 struct fileNode *removeRight(struct fileNode *prev_node, char new_data[], struct fileNode *copy)
 {
-    printf("\ncurrent dirR: %s", copy->filename);
+    // printf("\ncurrent dirR: %s", copy->filename);
     
-printf("\nroot dir: %s", prev_node->filename);
+// printf("\nroot dir: %s", prev_node->filename);
     while (prev_node != NULL)
     {
-        printf("\ncurrent path: %s/%s", prev_node->filename, new_data);
+        // printf("\ncurrent path: %s/%s", prev_node->filename, new_data);
         if (strcmp(("%s", prev_node->filename), ("%s", copy->filename)))
         {
-            printf("\ncurrent path: %s/%s", prev_node->filename, new_data);
+            // printf("\ncurrent path: %s/%s", prev_node->filename, new_data);
             if (prev_node->right != NULL && prev_node->left != NULL)
             {
             }

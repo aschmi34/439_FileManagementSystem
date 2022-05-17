@@ -164,7 +164,7 @@ void deleteAll(struct fileNode *node, struct fileNode *copy)
     if (("%s", root->left) == NULL)
     {
 
-      printf("\nnode0: %s", root->filename);
+      // printf("\nnode0: %s", root->filename);
 
       last = root;
       root = root->right;
@@ -172,18 +172,18 @@ void deleteAll(struct fileNode *node, struct fileNode *copy)
     else
     {
 
-      printf("\nnode: %s", root->filename);
+      // printf("\nnode: %s", root->filename);
       last = root;
       root = root->left;
     }
   }
   while (last != NULL)
   {
-    printf("\nin /last\n");
+    // printf("\nin /last\n");
     if (("%s", last->right) == NULL)
     {
 
-      printf("\nnode1: %s", last->filename);
+      // printf("\nnode1: %s", last->filename);
       // }
       root = last;
       if (strncmp(("%s", last->filename), head, 21) == 0)
@@ -734,7 +734,7 @@ void main()
           }
           // strcat(dirstr, ("%s",root->filename));
           // strcat(dirstr, "/");
-          printf("\ndirstrD: %s", dirstr);
+          // printf("\ndirstrD: %s", dirstr);
           memset(newstr, 0, 100);
           // strcat(dirstr, ("%s", copy->left->filename));
           strcat(newstr, dirstr);

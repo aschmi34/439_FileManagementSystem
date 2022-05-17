@@ -322,24 +322,44 @@ void main()
           {
           int i = strlen(("%s", copy->filename)) - 1;
           char newstr[100]="";
-          for (size_t i = 0; i < strlen(("%s", copy->filename)); i++)
+          printf("\ncopy4:%s",copy->filename);
+          for (size_t j = 0; j < strlen(("%s", copy->filename)); j++)
           {
-            newstr[i] = copy->filename[i];
+            newstr[j] = copy->filename[j];
           }
             memset(dir, 0, 100);
-            for (size_t i = 0; i < strlen(); i++)
+            for (i; i > 0; i--)
             {
+              printf("\nchar:%c",newstr[i]);
+              if(newstr[i]!='/'){
+              //   for(int x=0;i<strlen(newstr);x++){
+                  
+              //   printf("\n%c",dir[x]);
 
-              dir[i] = copy->filename[i];
-            }
+              //   dir[x] = newstr[i];
+              //   i++;
+              //   }
+              // i=0;
+              }else if(newstr[i]=='/'){
+                i++;
+                 for(int x=0;i<strlen(newstr);x++){
+                  
+                printf("\n%c",dir[x]);
+
+                dir[x] = newstr[i];
+                i++;
+                }
+              i=0;
+              }
+                }
             start = 2;
+            }
             
-            printf("\n NewDir%s",dir);
+            printf("\n NewDir:%s",dir);
             // copy=last;
-          }
           last = copy;
           copy = copy->left;
-        }
+          }
         printf("\n\nTraverse in reverse direction \n");
         // int value = strcmp(("%s",node->filename),"book.txt");
         while (last != NULL && start == 3)
@@ -358,7 +378,8 @@ void main()
           }
           last = last->right;
         }
-      }
+        }
+      // }
       // copy=
       ans = 9;
     }
@@ -480,22 +501,32 @@ void main()
         printf("current dir: %s\n", copy->filename);
         if (sideF == 0)
         {
-          insertleft(copy, str);
-          sideF = 1;
+          if(copy->left!=NULL){
+          insertRight(root, str,copy);
+            sideF =1;
+          }else{
+          insertleft(root, str,copy);
+          sideF = 0;
+          }
         }
         else if (sideF == 1)
         {
-          insertRight(copy, str);
-          sideF = 2;
+          if(copy->right!=NULL){
+            sideF =0;
+          insertleft(root, str,copy);
+          }else{
+          insertRight(root, str,copy);
+          sideF = 1;
+          }
         }
         else if (sideF == 2)
         {
-          insertleftF(copy, str);
+          insertleftF(root, str,copy);
           sideF = 3;
         }
         else if (sideF == 3)
         {
-          insertRightF(copy, str);
+          insertRightF(root, str,copy);
           sideF = 2;
         }
       }
@@ -550,7 +581,7 @@ void main()
       {
         printf("Enter file name to be deleted: ");
         scanf("%s", str);
-        printf("\nstr: %s%s\n", root->filename, str);
+        printf("\nstr: %s/%s\n", root->filename, str);
         // strcat(dire,str);
         printf("%d\n", sideF);
         if (sideF == 0)
@@ -703,7 +734,7 @@ void main()
           }
           // strcat(dirstr, ("%s",root->filename));
           // strcat(dirstr, "/");
-          printf("\ndirstrD: %s", dirstr);
+          // printf("\ndirstrD: %s", dirstr);
           memset(newstr, 0, 100);
           // strcat(dirstr, ("%s", copy->left->filename));
           strcat(newstr, dirstr);
